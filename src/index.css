@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    display: block;
+    max-width: 100%;
+}
+
+.dropdown--container > *{
+    max-width: 75%;
+    padding: 0.2em;
+    margin: 0.5em;
+}
+
+.button--picture{
+    padding: 0.5em 1em;
+    border: none;
+    background-color: orange;
+    border-radius: 0.5em;
+    font-size: 1.5rem;
+}
+
+.picture--container{
+    margin: 2em;
+}
