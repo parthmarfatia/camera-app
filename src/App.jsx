@@ -17,10 +17,9 @@ function App() {
           video: {
             deviceId: selectedVideoInput,
           },
-          audio: false,
-          // {
-          //   deviceId: selectedAudioInput,
-          // },
+          audio: {
+            deviceId: selectedAudioInput,
+          },
         });
         videoRef.current.srcObject = stream;
       } catch (err) {
